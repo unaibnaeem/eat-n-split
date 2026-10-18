@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Eat-n-Split
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Eat-n-Split is a React application for keeping track of shared expenses with friends. Add friends, split a bill, choose who paid, and see whether you owe someone money or they owe you.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Manage friends:** Add friends to your list and select a friend to split a bill with.
+- **Track balances:** See whether you owe a friend, they owe you, or your balances are even.
+- **Split bills:** Enter the bill amount and each person's expense, then select who paid the bill.
+- **Update balances:** After splitting a bill, the relevant friend's balance is updated to reflect the amount owed.
+- **View friend details:** Select a friend to open the bill-splitting form for that person.
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React
+- JavaScript
+- CSS
+- Create React App
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Install [Node.js](https://nodejs.org/) and npm.
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Navigate to the project directory:
 
-### `npm run eject`
+   ```bash
+   cd YOUR-REPOSITORY
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Install dependencies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   npm install
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Start the development server:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   npm start
+   ```
 
-## Learn More
+5. Open the local URL shown in the terminal (Create React App typically uses `http://localhost:3000`).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## How to Use
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Add a friend to your list.
+2. Select the friend you want to split a bill with.
+3. Enter the total bill value and each person's expense.
+4. Select who paid the bill.
+5. Choose **Split bill** to calculate and update the balance.
+6. Check the friend list to see the updated amount owed or whether you are even.
 
-### Code Splitting
+## Project Purpose
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project demonstrates building an interactive expense-splitting interface with React, handling form input, managing application state, and calculating balances between friends.
